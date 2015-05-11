@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAF588118C17CDF00F9EB8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF588018C17CDF00F9EB8D /* Foundation.framework */; };
+		3CAF58B318C17DB900F9EB8D /* libAppCanEngine_IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58B218C17DB900F9EB8D /* libAppCanEngine_IOS.a */; };
+		3CAF58B518C17DE800F9EB8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58B418C17DE800F9EB8D /* AudioToolbox.framework */; };
+		3CAF58B718C17DEF00F9EB8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58B618C17DEF00F9EB8D /* MapKit.framework */; };
+		3CAF58B918C17DF500F9EB8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58B818C17DF500F9EB8D /* CoreTelephony.framework */; };
+		3CAF58BB18C17DFB00F9EB8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58BA18C17DFB00F9EB8D /* MobileCoreServices.framework */; };
+		3CAF58BD18C17E0100F9EB8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58BC18C17E0100F9EB8D /* SystemConfiguration.framework */; };
+		3CAF58BF18C17E0600F9EB8D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58BE18C17E0600F9EB8D /* libz.dylib */; };
+		3CAF58C118C17E0C00F9EB8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAF58C018C17E0C00F9EB8D /* libsqlite3.dylib */; };
+		3CAF58CC18C17E3200F9EB8D /* EUExLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF58C818C17E3200F9EB8D /* EUExLog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3CAF58CD18C17E3200F9EB8D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF58CB18C17E3200F9EB8D /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CAF587B18C17CDF00F9EB8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CAF587D18C17CDF00F9EB8D /* uexLog.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = uexLog.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAF588018C17CDF00F9EB8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CAF58B218C17DB900F9EB8D /* libAppCanEngine_IOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCanEngine_IOS.a; path = ../libAppCanEngine_IOS.a; sourceTree = "<group>"; };
+		3CAF58B418C17DE800F9EB8D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3CAF58B618C17DEF00F9EB8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3CAF58B818C17DF500F9EB8D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3CAF58BA18C17DFB00F9EB8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3CAF58BC18C17E0100F9EB8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3CAF58BE18C17E0600F9EB8D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3CAF58C018C17E0C00F9EB8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3CAF58C318C17E3200F9EB8D /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		3CAF58C418C17E3200F9EB8D /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		3CAF58C518C17E3200F9EB8D /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		3CAF58C618C17E3200F9EB8D /* EUExLog-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EUExLog-Prefix.pch"; path = "EUExLog/EUExLog-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3CAF58C718C17E3200F9EB8D /* EUExLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUExLog.h; path = EUExLog/EUExLog.h; sourceTree = SOURCE_ROOT; };
+		3CAF58C818C17E3200F9EB8D /* EUExLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUExLog.m; path = EUExLog/EUExLog.m; sourceTree = SOURCE_ROOT; };
+		3CAF58CA18C17E3200F9EB8D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		3CAF58CB18C17E3200F9EB8D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAF587A18C17CDF00F9EB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF58C118C17E0C00F9EB8D /* libsqlite3.dylib in Frameworks */,
+				3CAF58BF18C17E0600F9EB8D /* libz.dylib in Frameworks */,
+				3CAF58BD18C17E0100F9EB8D /* SystemConfiguration.framework in Frameworks */,
+				3CAF58BB18C17DFB00F9EB8D /* MobileCoreServices.framework in Frameworks */,
+				3CAF58B918C17DF500F9EB8D /* CoreTelephony.framework in Frameworks */,
+				3CAF58B718C17DEF00F9EB8D /* MapKit.framework in Frameworks */,
+				3CAF58B518C17DE800F9EB8D /* AudioToolbox.framework in Frameworks */,
+				3CAF58B318C17DB900F9EB8D /* libAppCanEngine_IOS.a in Frameworks */,
+				3CAF588118C17CDF00F9EB8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAF587418C17CDF00F9EB8D = {
+			isa = PBXGroup;
+			children = (
+				3CAF588218C17CDF00F9EB8D /* uexLog */,
+				3CAF587F18C17CDF00F9EB8D /* Frameworks */,
+				3CAF587E18C17CDF00F9EB8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAF587E18C17CDF00F9EB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF587D18C17CDF00F9EB8D /* uexLog.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAF587F18C17CDF00F9EB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF58C018C17E0C00F9EB8D /* libsqlite3.dylib */,
+				3CAF58BE18C17E0600F9EB8D /* libz.dylib */,
+				3CAF58BC18C17E0100F9EB8D /* SystemConfiguration.framework */,
+				3CAF58BA18C17DFB00F9EB8D /* MobileCoreServices.framework */,
+				3CAF58B818C17DF500F9EB8D /* CoreTelephony.framework */,
+				3CAF58B618C17DEF00F9EB8D /* MapKit.framework */,
+				3CAF58B418C17DE800F9EB8D /* AudioToolbox.framework */,
+				3CAF58B218C17DB900F9EB8D /* libAppCanEngine_IOS.a */,
+				3CAF588018C17CDF00F9EB8D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CAF588218C17CDF00F9EB8D /* uexLog */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF58C218C17E3200F9EB8D /* engineHeader */,
+				3CAF58C618C17E3200F9EB8D /* EUExLog-Prefix.pch */,
+				3CAF58C718C17E3200F9EB8D /* EUExLog.h */,
+				3CAF58C818C17E3200F9EB8D /* EUExLog.m */,
+				3CAF58C918C17E3200F9EB8D /* sourceCode */,
+			);
+			path = uexLog;
+			sourceTree = "<group>";
+		};
+		3CAF58C218C17E3200F9EB8D /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF58C318C17E3200F9EB8D /* EUExBase.h */,
+				3CAF58C418C17E3200F9EB8D /* EUExBaseDefine.h */,
+				3CAF58C518C17E3200F9EB8D /* EUtility.h */,
+			);
+			name = engineHeader;
+			path = EUExLog/engineHeader;
+			sourceTree = SOURCE_ROOT;
+		};
+		3CAF58C918C17E3200F9EB8D /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF58CA18C17E3200F9EB8D /* GCDAsyncUdpSocket.h */,
+				3CAF58CB18C17E3200F9EB8D /* GCDAsyncUdpSocket.m */,
+			);
+			name = sourceCode;
+			path = EUExLog/sourceCode;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAF587C18C17CDF00F9EB8D /* uexLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAF58A018C17CDF00F9EB8D /* Build configuration list for PBXNativeTarget "uexLog" */;
+			buildPhases = (
+				3CAF587918C17CDF00F9EB8D /* Sources */,
+				3CAF587A18C17CDF00F9EB8D /* Frameworks */,
+				3CAF587B18C17CDF00F9EB8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uexLog;
+			productName = uexLog;
+			productReference = 3CAF587D18C17CDF00F9EB8D /* uexLog.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAF587518C17CDF00F9EB8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = demo;
+			};
+			buildConfigurationList = 3CAF587818C17CDF00F9EB8D /* Build configuration list for PBXProject "uexLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CAF587418C17CDF00F9EB8D;
+			productRefGroup = 3CAF587E18C17CDF00F9EB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAF587C18C17CDF00F9EB8D /* uexLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAF587918C17CDF00F9EB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF58CD18C17E3200F9EB8D /* GCDAsyncUdpSocket.m in Sources */,
+				3CAF58CC18C17E3200F9EB8D /* EUExLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CAF589E18C17CDF00F9EB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhengyi Wireless(Beijing) Technology Co., Ltd.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3CAF589F18C17CDF00F9EB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhengyi Wireless(Beijing) Technology Co., Ltd.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		3CAF58A118C17CDF00F9EB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: leilei xu (T8E4RVNP82)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexLog/";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/uexLog.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExLog/EUExLog-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CAF58A218C17CDF00F9EB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: leilei xu (T8E4RVNP82)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexLog/";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/uexLog.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExLog/EUExLog-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAF587818C17CDF00F9EB8D /* Build configuration list for PBXProject "uexLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAF589E18C17CDF00F9EB8D /* Debug */,
+				3CAF589F18C17CDF00F9EB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAF58A018C17CDF00F9EB8D /* Build configuration list for PBXNativeTarget "uexLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAF58A118C17CDF00F9EB8D /* Debug */,
+				3CAF58A218C17CDF00F9EB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAF587518C17CDF00F9EB8D /* Project object */;
+}
