@@ -28,6 +28,12 @@ GCDAsyncUdpSocket *sockObj;
 	[super dealloc];
 }
 
+- (void)clean {
+    if (meBrwView) {
+        meBrwView = nil;
+    }
+}
+
 -(void)sendLog:(NSMutableArray *)inArguments{
 	NSString *inLog = [inArguments objectAtIndex:0];
 	NSString *logServerIp = [EUtility LogServerIp:meBrwView];
