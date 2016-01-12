@@ -13,7 +13,7 @@
 		5721324E13BD03199C230785 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C199930C3D595DA10563AB6 /* libstdc++.tbd */; };
 		5A501971188FD0280022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A501970188FD0280022E07C /* Foundation.framework */; };
 		5A501978188FD0280022E07C /* EUExLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501977188FD0280022E07C /* EUExLog.m */; };
-		5A50199D188FD0930022E07C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */; };
+		5A50199D188FD0930022E07C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-orc"; }; };
 		8C317DC873CEDA09D762F2DC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28E8E1314726B58AEECE31E /* ImageIO.framework */; };
 		9B808D8C0CA925FC00360543 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C138ACC5FC06913CD8F7E2 /* QuartzCore.framework */; };
 		9D3E14EC1B60A397255C9C70 /* AppCanEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94C163CA04E13F1A19CEBE3 /* AppCanEngine.framework */; };
