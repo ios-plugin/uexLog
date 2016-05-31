@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090E572B1CFD822A00FEEAAB /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */; };
+		090E572C1CFD828400FEEAAB /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */; };
 		5A501971188FD0280022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A501970188FD0280022E07C /* Foundation.framework */; };
 		5A501978188FD0280022E07C /* EUExLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501977188FD0280022E07C /* EUExLog.m */; };
-		5A50199D188FD0930022E07C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5A50196B188FD0280022E07C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				090E572C1CFD828400FEEAAB /* CocoaAsyncSocket.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		5A50196D188FD0280022E07C /* libuexLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501970188FD0280022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A501974188FD0280022E07C /* EUExLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExLog-Prefix.pch"; sourceTree = "<group>"; };
@@ -32,8 +35,6 @@
 		5A501997188FD0930022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		5A501998188FD0930022E07C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		5A501999188FD0930022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
-		5A50199B188FD0930022E07C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		FC16252F18AB6FCE00BEF700 /* EUExLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090E572B1CFD822A00FEEAAB /* CocoaAsyncSocket.framework in Frameworks */,
 				5A501971188FD0280022E07C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,8 +109,7 @@
 		5A50199A188FD0930022E07C /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				5A50199B188FD0930022E07C /* GCDAsyncUdpSocket.h */,
-				5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */,
+				090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */,
 			);
 			path = sourceCode;
 			sourceTree = "<group>";
@@ -164,7 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A50199D188FD0930022E07C /* GCDAsyncUdpSocket.m in Sources */,
 				5A501978188FD0280022E07C /* EUExLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +250,10 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexLog/";
 				DSTROOT = /tmp/EUExLog.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExLog/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExLog/EUExLog-Prefix.pch";
 				ONLY_ACTIVE_ARCH = NO;
@@ -266,6 +270,10 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexLog/";
 				DSTROOT = /tmp/EUExLog.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExLog/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExLog/EUExLog-Prefix.pch";
 				ONLY_ACTIVE_ARCH = NO;

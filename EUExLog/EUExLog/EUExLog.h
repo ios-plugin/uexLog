@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "EUExBase.h"
-#import "GCDAsyncUdpSocket.h"
+
 
 @interface EUExLog : EUExBase  {
 }
