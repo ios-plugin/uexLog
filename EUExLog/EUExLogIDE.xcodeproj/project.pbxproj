@@ -7,62 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14E8BF1F0512D2116B24FB40 /* CFNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F188221C4378F4E521ED5 /* CFNetWork.framework */; };
-		17FA0F35163F93E9B7254467 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F732DED5C7C6DE65D663176 /* libz.tbd */; };
-		1F1BA24F70BD9F123051B272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837EE80795C34D0F6CE98BD8 /* UIKit.framework */; };
-		5721324E13BD03199C230785 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C199930C3D595DA10563AB6 /* libstdc++.tbd */; };
+		090E572B1CFD822A00FEEAAB /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */; };
+		098A5E2324E7A2DFB0CA4152 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332D74A5DEAE0BA76B3F77D0 /* AudioToolbox.framework */; };
+		0F474AC74B8476662D04A0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486B5FD1E068DAD8EFE57987 /* UIKit.framework */; };
+		15E6D312CF1C8E5029E0807C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DAE671CBC82ACE8A61CC6B /* SystemConfiguration.framework */; };
+		28D6448538BAB0A2B32F8431 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 38199D55ECA0F5D6913DDB04 /* libsqlite3.tbd */; };
+		413FC16C53BAFC97F2A68F6E /* AppCanEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C36C7C67EB9F8CFBC05850D /* AppCanEngine.framework */; };
+		42D7F76D1CFFFBA800447B4C /* CocoaAsyncSocket.framework in Resources */ = {isa = PBXBuildFile; fileRef = 090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */; };
+		482F3210273745CF84BF212E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8F64D5D5733BF673741D3E /* MobileCoreServices.framework */; };
 		5A501971188FD0280022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A501970188FD0280022E07C /* Foundation.framework */; };
 		5A501978188FD0280022E07C /* EUExLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501977188FD0280022E07C /* EUExLog.m */; };
-		5A50199D188FD0930022E07C /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		8C317DC873CEDA09D762F2DC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28E8E1314726B58AEECE31E /* ImageIO.framework */; };
-		9B808D8C0CA925FC00360543 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C138ACC5FC06913CD8F7E2 /* QuartzCore.framework */; };
-		9D3E14EC1B60A397255C9C70 /* AppCanEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94C163CA04E13F1A19CEBE3 /* AppCanEngine.framework */; };
-		A095C6C00B42C5CDF910D820 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C044D856ABEA87B5CF418BF9 /* libsqlite3.tbd */; };
-		B8C853A1FFF3EAA782B2F6A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8AF9011D2BFF6D3AD37F7A /* CoreGraphics.framework */; };
-		C3357E186FC7DCED95FF50E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E61A47C0FC371DD545BF95 /* SystemConfiguration.framework */; };
-		CE7F596CA3799B9A8529A7B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDB0EFE83452DE624BAB744 /* MapKit.framework */; };
-		D19CD8BA8644AADDEC253968 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D10133C0E6A602F58CBDD4 /* libc++.tbd */; };
-		F021865BA5B5F26437B05DDD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB74055871A5064CBE2681E /* MobileCoreServices.framework */; };
-		FCF9FCBFFEE332DA886BDF95 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDD38E4A52284B6242C8211 /* AudioToolbox.framework */; };
+		6844F9E74B41E8B7176E4EB2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DED28259B810C747EC2564C9 /* libz.tbd */; };
+		8ACB52D9A5749FE6BAA8255A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E32C69D9C230EC18E8AA2151 /* libc++.tbd */; };
+		8D52D28921A0907E72698A82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B0B06B48D0447B90641E2 /* MapKit.framework */; };
+		AE725440E547E3E70E6037E4 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45C7CD51244DFFAECA8ABB /* libstdc++.tbd */; };
+		BAB8EBB1EB357D4FF516E9FF /* CFNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01330EB49C8C14BFCB57A29 /* CFNetWork.framework */; };
+		CD87A8476EA140760BE0F44E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3E4CE3FA39D4A518F65E8F /* CoreGraphics.framework */; };
+		D1A737AFD0B60826BBE289B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC0D1EB183F962208DA86D5 /* QuartzCore.framework */; };
+		E2B2E3DEE2C31A66440681DF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09196EC36D6F7CC682249B14 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		5A50196B188FD0280022E07C /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0CDD38E4A52284B6242C8211 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		1F732DED5C7C6DE65D663176 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		25C3B77F93FFFB65D25C8CC9 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = info.plist; path = "../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist"; sourceTree = "<group>"; };
-		295F188221C4378F4E521ED5 /* CFNetWork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetWork.framework; path = System/Library/Frameworks/CFNetWork.framework; sourceTree = SDKROOT; };
-		2C199930C3D595DA10563AB6 /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		5A50196D188FD0280022E07C /* uexLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = uexLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		09196EC36D6F7CC682249B14 /* ImageIO.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		18DAE671CBC82ACE8A61CC6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		260B0B06B48D0447B90641E2 /* MapKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2E45C7CD51244DFFAECA8ABB /* libstdc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		332D74A5DEAE0BA76B3F77D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		38199D55ECA0F5D6913DDB04 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3C36C7C67EB9F8CFBC05850D /* AppCanEngine.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AppCanEngine.framework; path = "../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/AppCanEngine.framework"; sourceTree = "<group>"; };
+		42D7F7531CFFF96600447B4C /* BUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUtility.h; sourceTree = "<group>"; };
+		486B5FD1E068DAD8EFE57987 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A50196D188FD0280022E07C /* uexLog.framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = uexLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501970188FD0280022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A501974188FD0280022E07C /* EUExLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExLog-Prefix.pch"; sourceTree = "<group>"; };
 		5A501977188FD0280022E07C /* EUExLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExLog.m; sourceTree = "<group>"; };
 		5A501997188FD0930022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		5A501998188FD0930022E07C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		5A501999188FD0930022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
-		5A50199B188FD0930022E07C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		5AB74055871A5064CBE2681E /* MobileCoreServices.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		837EE80795C34D0F6CE98BD8 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		94E61A47C0FC371DD545BF95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B8D10133C0E6A602F58CBDD4 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		C044D856ABEA87B5CF418BF9 /* libsqlite3.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		C28E8E1314726B58AEECE31E /* ImageIO.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		CA8AF9011D2BFF6D3AD37F7A /* CoreGraphics.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEDB0EFE83452DE624BAB744 /* MapKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		E0C138ACC5FC06913CD8F7E2 /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E94C163CA04E13F1A19CEBE3 /* AppCanEngine.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AppCanEngine.framework; path = "../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/AppCanEngine.framework"; sourceTree = "<group>"; };
+		5B3E4CE3FA39D4A518F65E8F /* CoreGraphics.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E8F64D5D5733BF673741D3E /* MobileCoreServices.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8DC0D1EB183F962208DA86D5 /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D01330EB49C8C14BFCB57A29 /* CFNetWork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetWork.framework; path = System/Library/Frameworks/CFNetWork.framework; sourceTree = SDKROOT; };
+		DED28259B810C747EC2564C9 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E32C69D9C230EC18E8AA2151 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F86DC9D2C60A8613DC734FA3 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = info.plist; path = "../../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource/info.plist"; sourceTree = "<group>"; };
 		FC16252F18AB6FCE00BEF700 /* EUExLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,64 +60,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090E572B1CFD822A00FEEAAB /* CocoaAsyncSocket.framework in Frameworks */,
 				5A501971188FD0280022E07C /* Foundation.framework in Frameworks */,
-				CE7F596CA3799B9A8529A7B8 /* MapKit.framework in Frameworks */,
-				FCF9FCBFFEE332DA886BDF95 /* AudioToolbox.framework in Frameworks */,
-				C3357E186FC7DCED95FF50E8 /* SystemConfiguration.framework in Frameworks */,
-				8C317DC873CEDA09D762F2DC /* ImageIO.framework in Frameworks */,
-				14E8BF1F0512D2116B24FB40 /* CFNetWork.framework in Frameworks */,
-				F021865BA5B5F26437B05DDD /* MobileCoreServices.framework in Frameworks */,
-				1F1BA24F70BD9F123051B272 /* UIKit.framework in Frameworks */,
-				B8C853A1FFF3EAA782B2F6A8 /* CoreGraphics.framework in Frameworks */,
-				9B808D8C0CA925FC00360543 /* QuartzCore.framework in Frameworks */,
-				D19CD8BA8644AADDEC253968 /* libc++.tbd in Frameworks */,
-				5721324E13BD03199C230785 /* libstdc++.tbd in Frameworks */,
-				A095C6C00B42C5CDF910D820 /* libsqlite3.tbd in Frameworks */,
-				17FA0F35163F93E9B7254467 /* libz.tbd in Frameworks */,
-				9D3E14EC1B60A397255C9C70 /* AppCanEngine.framework in Frameworks */,
+				8D52D28921A0907E72698A82 /* MapKit.framework in Frameworks */,
+				098A5E2324E7A2DFB0CA4152 /* AudioToolbox.framework in Frameworks */,
+				15E6D312CF1C8E5029E0807C /* SystemConfiguration.framework in Frameworks */,
+				E2B2E3DEE2C31A66440681DF /* ImageIO.framework in Frameworks */,
+				BAB8EBB1EB357D4FF516E9FF /* CFNetWork.framework in Frameworks */,
+				482F3210273745CF84BF212E /* MobileCoreServices.framework in Frameworks */,
+				0F474AC74B8476662D04A0A3 /* UIKit.framework in Frameworks */,
+				CD87A8476EA140760BE0F44E /* CoreGraphics.framework in Frameworks */,
+				D1A737AFD0B60826BBE289B3 /* QuartzCore.framework in Frameworks */,
+				8ACB52D9A5749FE6BAA8255A /* libc++.tbd in Frameworks */,
+				AE725440E547E3E70E6037E4 /* libstdc++.tbd in Frameworks */,
+				28D6448538BAB0A2B32F8431 /* libsqlite3.tbd in Frameworks */,
+				6844F9E74B41E8B7176E4EB2 /* libz.tbd in Frameworks */,
+				413FC16C53BAFC97F2A68F6E /* AppCanEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A530E97318D042FEFE5D4B2 /* AppCanEngine */ = {
-			isa = PBXGroup;
-			children = (
-				E94C163CA04E13F1A19CEBE3 /* AppCanEngine.framework */,
-				25C3B77F93FFFB65D25C8CC9 /* info.plist */,
-			);
-			path = AppCanEngine;
-			sourceTree = "<group>";
-		};
-		57C3DD4EDF6C99838393E2DF /* IDE-Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CEDB0EFE83452DE624BAB744 /* MapKit.framework */,
-				0CDD38E4A52284B6242C8211 /* AudioToolbox.framework */,
-				94E61A47C0FC371DD545BF95 /* SystemConfiguration.framework */,
-				C28E8E1314726B58AEECE31E /* ImageIO.framework */,
-				295F188221C4378F4E521ED5 /* CFNetWork.framework */,
-				5AB74055871A5064CBE2681E /* MobileCoreServices.framework */,
-				837EE80795C34D0F6CE98BD8 /* UIKit.framework */,
-				CA8AF9011D2BFF6D3AD37F7A /* CoreGraphics.framework */,
-				E0C138ACC5FC06913CD8F7E2 /* QuartzCore.framework */,
-				B8D10133C0E6A602F58CBDD4 /* libc++.tbd */,
-				2C199930C3D595DA10563AB6 /* libstdc++.tbd */,
-				C044D856ABEA87B5CF418BF9 /* libsqlite3.tbd */,
-				1F732DED5C7C6DE65D663176 /* libz.tbd */,
-			);
-			path = "IDE-Frameworks";
-			sourceTree = "<group>";
-		};
 		5A501964188FD0280022E07C = {
 			isa = PBXGroup;
 			children = (
 				5A501972188FD0280022E07C /* EUExLog */,
 				5A50196F188FD0280022E07C /* Frameworks */,
 				5A50196E188FD0280022E07C /* Products */,
-				57C3DD4EDF6C99838393E2DF /* IDE-Frameworks */,
-				2A530E97318D042FEFE5D4B2 /* AppCanEngine */,
+				68BDB52BBBBF0792888589F8 /* IDE-Frameworks */,
+				AC8E711034DF35E3F7EDBF25 /* AppCanEngine */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +132,7 @@
 		5A501996188FD0930022E07C /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
+				42D7F7531CFFF96600447B4C /* BUtility.h */,
 				5A501997188FD0930022E07C /* EUExBase.h */,
 				5A501998188FD0930022E07C /* EUExBaseDefine.h */,
 				5A501999188FD0930022E07C /* EUtility.h */,
@@ -181,10 +143,38 @@
 		5A50199A188FD0930022E07C /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				5A50199B188FD0930022E07C /* GCDAsyncUdpSocket.h */,
-				5A50199C188FD0930022E07C /* GCDAsyncUdpSocket.m */,
+				090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */,
 			);
 			path = sourceCode;
+			sourceTree = "<group>";
+		};
+		68BDB52BBBBF0792888589F8 /* IDE-Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260B0B06B48D0447B90641E2 /* MapKit.framework */,
+				332D74A5DEAE0BA76B3F77D0 /* AudioToolbox.framework */,
+				18DAE671CBC82ACE8A61CC6B /* SystemConfiguration.framework */,
+				09196EC36D6F7CC682249B14 /* ImageIO.framework */,
+				D01330EB49C8C14BFCB57A29 /* CFNetWork.framework */,
+				7E8F64D5D5733BF673741D3E /* MobileCoreServices.framework */,
+				486B5FD1E068DAD8EFE57987 /* UIKit.framework */,
+				5B3E4CE3FA39D4A518F65E8F /* CoreGraphics.framework */,
+				8DC0D1EB183F962208DA86D5 /* QuartzCore.framework */,
+				E32C69D9C230EC18E8AA2151 /* libc++.tbd */,
+				2E45C7CD51244DFFAECA8ABB /* libstdc++.tbd */,
+				38199D55ECA0F5D6913DDB04 /* libsqlite3.tbd */,
+				DED28259B810C747EC2564C9 /* libz.tbd */,
+			);
+			path = "IDE-Frameworks";
+			sourceTree = "<group>";
+		};
+		AC8E711034DF35E3F7EDBF25 /* AppCanEngine */ = {
+			isa = PBXGroup;
+			children = (
+				3C36C7C67EB9F8CFBC05850D /* AppCanEngine.framework */,
+				F86DC9D2C60A8613DC734FA3 /* info.plist */,
+			);
+			path = AppCanEngine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +186,7 @@
 			buildPhases = (
 				5A501969188FD0280022E07C /* Sources */,
 				5A50196A188FD0280022E07C /* Frameworks */,
-				5A50196B188FD0280022E07C /* CopyFiles */,
+				42D7F76C1CFFFB9B00447B4C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -233,12 +223,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		42D7F76C1CFFFB9B00447B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D7F76D1CFFFBA800447B4C /* CocoaAsyncSocket.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A501969188FD0280022E07C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A50199D188FD0930022E07C /* GCDAsyncUdpSocket.m in Sources */,
 				5A501978188FD0280022E07C /* EUExLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +337,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExLog/sourceCode",
 					"$(PROJECT_DIR)",
 					"$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource",
 				);
@@ -375,6 +377,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExLog/sourceCode",
 					"$(PROJECT_DIR)",
 					"$(SRCROOT)/../../AppCanPluginTools-iOS/resource/IDEPluginProjectPackageResource",
 				);

@@ -8,7 +8,7 @@
 
 #import "EUExLog.h"
 #import "EUtility.h"
-
+#import "BUtility.h"
 #define LOG_PORT 30050
 
 @implementation EUExLog
@@ -37,6 +37,9 @@ GCDAsyncUdpSocket *sockObj;
 -(void)sendLog:(NSMutableArray *)inArguments{
 	NSString *inLog = [inArguments objectAtIndex:0];
 	NSString *logServerIp = [EUtility LogServerIp:meBrwView];
+    if (!logServerIp) {
+        logServerIp = [BUtility getMainWidgetConfigLogserverip];
+    }
 	if (logServerIp) {
 		if (sockObj==nil) {
 			sockObj = [[GCDAsyncUdpSocket alloc] init];

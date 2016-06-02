@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		42D7F7531CFFF96600447B4C /* BUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUtility.h; sourceTree = "<group>"; };
 		5A50196D188FD0280022E07C /* libuexLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501970188FD0280022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A501974188FD0280022E07C /* EUExLog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExLog-Prefix.pch"; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		5A501996188FD0930022E07C /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
+				42D7F7531CFFF96600447B4C /* BUtility.h */,
 				5A501997188FD0930022E07C /* EUExBase.h */,
 				5A501998188FD0930022E07C /* EUExBaseDefine.h */,
 				5A501999188FD0930022E07C /* EUtility.h */,
