@@ -41,7 +41,13 @@ GCDAsyncUdpSocket *sockObj;
 
 -(void)sendLog:(NSMutableArray *)inArguments{
 	NSString *inLog = [inArguments objectAtIndex:0];
-	NSString *logServerIp = [AppCanMainWidget() logServerIp];
+    NSString *logServerIp = nil;
+    if (self.webViewEngine.widget.logServerIp) {
+        logServerIp = self.webViewEngine.widget.logServerIp;
+    }else{
+        logServerIp = [AppCanMainWidget() logServerIp];
+    }
+	
     if (!logServerIp) {
         logServerIp = [BUtility getMainWidgetConfigLogserverip];
     }
