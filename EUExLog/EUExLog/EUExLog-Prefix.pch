@@ -8,4 +8,5 @@
     #import <Foundation/Foundation.h>
     #import<UIKit/UIKit.h>
     #import <CocoaAsyncSocket/CocoaAsyncSocket.h>
+    #import <AppCanKit/AppCanKit.h>
 #endif
