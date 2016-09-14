@@ -27,10 +27,10 @@ GCDAsyncUdpSocket *sockObj;
 }
 -(void)dealloc{
 	if(sockObj){
-		[sockObj release];
+		
 		sockObj = nil;
 	}
-	[super dealloc];
+	
 }
 
 - (void)clean {
@@ -40,7 +40,8 @@ GCDAsyncUdpSocket *sockObj;
 }
 
 -(void)sendLog:(NSMutableArray *)inArguments{
-	NSString *inLog = [inArguments objectAtIndex:0];
+	//NSString *inLog = [inArguments objectAtIndex:0];
+    ACArgsUnpack(NSString *inLog) = inArguments;
     NSString *logServerIp = nil;
     if (self.webViewEngine.widget.logServerIp) {
         logServerIp = self.webViewEngine.widget.logServerIp;
