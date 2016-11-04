@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
     <plugin name="uexLog">
+        
         <method name="sendLog"></method>
-	</plugin>
+        
+        <method name="setHost"></method>
+        
+        <method name="getHost"></method>
+        
+    </plugin>
 </uexplugins>

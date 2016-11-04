@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		090E572B1CFD822A00FEEAAB /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */; };
 		090E572C1CFD828400FEEAAB /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */; };
+		4277CDF11DBF5FC300566E31 /* UexLogMySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277CDF01DBF5FC300566E31 /* UexLogMySingleton.m */; };
 		5A501971188FD0280022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A501970188FD0280022E07C /* Foundation.framework */; };
 		5A501978188FD0280022E07C /* EUExLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501977188FD0280022E07C /* EUExLog.m */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,19 @@
 
 /* Begin PBXFileReference section */
 		090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		425E726F1DBEF07E00867E29 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		425E72701DBEF07E00867E29 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		425E72711DBEF07E00867E29 /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
+		425E72721DBEF07E00867E29 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		425E72731DBEF07E00867E29 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		425E72741DBEF07E00867E29 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		425E72751DBEF07E00867E29 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		425E72761DBEF07E00867E29 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		425E72771DBEF07E00867E29 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		4277CDEF1DBF5FC300566E31 /* UexLogMySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UexLogMySingleton.h; path = sourceCode/UexLogMySingleton.h; sourceTree = "<group>"; };
+		4277CDF01DBF5FC300566E31 /* UexLogMySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UexLogMySingleton.m; path = sourceCode/UexLogMySingleton.m; sourceTree = "<group>"; };
+		4277CDF41DC03BC400566E31 /* WWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWidget.h; sourceTree = "<group>"; };
+		4277CDF51DC03CC400566E31 /* EBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBrowserView.h; sourceTree = "<group>"; };
 		42D7F7531CFFF96600447B4C /* BUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUtility.h; sourceTree = "<group>"; };
 		5A50196D188FD0280022E07C /* libuexLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501970188FD0280022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425E726E1DBEF07E00867E29 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				425E726F1DBEF07E00867E29 /* JSON.h */,
+				425E72701DBEF07E00867E29 /* JSONParser.h */,
+				425E72711DBEF07E00867E29 /* MD5Digest.h */,
+				425E72721DBEF07E00867E29 /* NSObject+SBJSON.h */,
+				425E72731DBEF07E00867E29 /* NSString+SBJSON.h */,
+				425E72741DBEF07E00867E29 /* SBJSON.h */,
+				425E72751DBEF07E00867E29 /* SBJsonBase.h */,
+				425E72761DBEF07E00867E29 /* SBJsonParser.h */,
+				425E72771DBEF07E00867E29 /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		5A501964188FD0280022E07C = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +112,8 @@
 			children = (
 				FC16252F18AB6FCE00BEF700 /* EUExLog.h */,
 				5A501977188FD0280022E07C /* EUExLog.m */,
+				4277CDEF1DBF5FC300566E31 /* UexLogMySingleton.h */,
+				4277CDF01DBF5FC300566E31 /* UexLogMySingleton.m */,
 				5A501996188FD0930022E07C /* engineHeader */,
 				5A50199A188FD0930022E07C /* sourceCode */,
 				5A501973188FD0280022E07C /* Supporting Files */,
@@ -100,6 +132,8 @@
 		5A501996188FD0930022E07C /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
+				4277CDF51DC03CC400566E31 /* EBrowserView.h */,
+				4277CDF41DC03BC400566E31 /* WWidget.h */,
 				42D7F7531CFFF96600447B4C /* BUtility.h */,
 				5A501997188FD0930022E07C /* EUExBase.h */,
 				5A501998188FD0930022E07C /* EUExBaseDefine.h */,
@@ -111,6 +145,7 @@
 		5A50199A188FD0930022E07C /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				425E726E1DBEF07E00867E29 /* JSON */,
 				090E572A1CFD822A00FEEAAB /* CocoaAsyncSocket.framework */,
 			);
 			path = sourceCode;
@@ -168,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A501978188FD0280022E07C /* EUExLog.m in Sources */,
+				4277CDF11DBF5FC300566E31 /* UexLogMySingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

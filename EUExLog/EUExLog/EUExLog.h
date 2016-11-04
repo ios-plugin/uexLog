@@ -11,5 +11,10 @@
 
 
 @interface EUExLog : EUExBase  {
+    
+    
+    
+    
 }
+@property(nonatomic,strong)NSString * hostAddress;
 @end

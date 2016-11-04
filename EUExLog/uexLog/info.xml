@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
-  <plugin uexName="uexLog" version="3.0.7" build="7">
-    <info>7: IDE证书更新</info>
+  <plugin uexName="uexLog" version="3.0.9.1" build="9.1">
+      <info>9.1:测试setHost地址全局性和添加appdebug</info>
+      <build>9:setHost地址全局性和添加appdebug</build>
+      <build>8:新增加setHost 和 getHost 接口来设置地址和 获取地址</build>
+    <build>7: IDE证书更新</build>
     <build>6: GCDAsyncUdpSocket库更换为framework</build>
     <build>5: GCDAsyncUdpSocket库更新</build>
     <build>4: 添加IDE支持</build>
