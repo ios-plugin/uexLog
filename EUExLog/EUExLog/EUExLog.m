@@ -14,12 +14,17 @@
 @implementation EUExLog
 
 GCDAsyncUdpSocket *sockObj;
--(id)initWithBrwView:(EBrowserView *) eInBrwView{	
-	if (self = [super initWithBrwView:eInBrwView]) {	
-	}
-	return self;
+//-(id)initWithBrwView:(EBrowserView *) eInBrwView{	
+//	if (self = [super initWithBrwView:eInBrwView]) {	
+//	}
+//	return self;
+//}
+-(id)initWithWebViewEngine:(id<AppCanWebViewEngineObject>)engine{
+    if (self = [super initWithWebViewEngine:engine]) {
+        
+    }
+    return self;
 }
-
 -(void)dealloc{
 	if(sockObj){
 		[sockObj release];
@@ -29,14 +34,20 @@ GCDAsyncUdpSocket *sockObj;
 }
 
 - (void)clean {
-    if (meBrwView) {
-        meBrwView = nil;
+    if (self.webViewEngine) {
+        self.webViewEngine = nil;
     }
 }
 
 -(void)sendLog:(NSMutableArray *)inArguments{
 	NSString *inLog = [inArguments objectAtIndex:0];
-	NSString *logServerIp = [EUtility LogServerIp:meBrwView];
+    NSString *logServerIp = nil;
+    if (self.webViewEngine.widget.logServerIp) {
+        logServerIp = self.webViewEngine.widget.logServerIp;
+    }else{
+        logServerIp = [AppCanMainWidget() logServerIp];
+    }
+	
     if (!logServerIp) {
         logServerIp = [BUtility getMainWidgetConfigLogserverip];
     }
